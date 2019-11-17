@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CCF10007E6355943ADF55E0BF6A33F2089F0CD23E3A2AAFF86FC663ADD0843F19B5BD5EABFA7A0A83A315275B077086573828D915B4B75EF8A8D3F3CFA846EC7" Timestamp="1D59B36AE595529" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="28f884a42727490088cfea0726f6399b" RootNamespaceId="931bfa5b3a3e401aa9834964bd557d97" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="9942c5964f804474afe7c4f5d67d85ab" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a7b0af7f527147a596aed951413644e2" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="9a85dfd05b964a7481ac5f6227f82dc3" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="e16da234fd9c4e01a759f97d2d96417c" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="c00d09d4fec64bc49ce5c2f6501c43c8" Name="Configuration1">
+			<CompilerSymbolTable Id="7ea828a959b64484ab910e42f25362f1" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="d2534b83b4a44d308a606401fa985ed6" Exported="True" Id="dcf78817245a4bb0bdba8ce5dc7cc8f2" />
+			<ComponentItemProperties AssociatedEnvoyId="24e94b370a3641198a9fde9526730a05" Exported="True" Id="46341946550e493e89f7b5984f916b7c" />
+			<ComponentItemProperties AssociatedEnvoyId="183a5dabe92a4e8c99f384dead54a718" Exported="True" Id="465b8f4bef0a4f34b7e935bc527b2aef" />
+			<ComponentItemProperties AssociatedEnvoyId="d8bd5178b2a44c81a3075822c5802859" Exported="True" Id="1046c33957ce4f34980888b67ed5eb2b" />
+			<ComponentItemProperties AssociatedEnvoyId="5ba0258ac92f4771b09c7ad4b5ecb148" Exported="True" Id="3a17a817163540c3804cb00654b020a6" />
+			<ComponentItemProperties AssociatedEnvoyId="e40702b86b52440ba678cfd8e39bcdf3" Exported="True" Id="9a4b29e908574df19a349c3f2233000d" />
+			<ComponentItemProperties AssociatedEnvoyId="62f4274e391f4618bca948c99427cd17" Exported="True" Id="94f446fe37ee4922a512423e13b7040f" />
+			<ComponentItemProperties AssociatedEnvoyId="2a0ac05b11884dc2b6fc2afc093b1edc" Exported="True" Id="570109cea4c8462bada55db83d0ab164" />
+			<ComponentItemProperties AssociatedEnvoyId="c67169eac8ee4321a9eac1d1103b84ca" Exported="True" Id="f7d03bd7dae44ee79851cc37bc7cb0ad" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="dbe60849fd9547ecb6c32a2855a22b67" Id="69546680d21b47e7a7fd94e373a61566" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="c8b1872bcabd403d9097249a2febc5a2" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="9ee98f1999e34d0d8d49e9e329f251b7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="6ff4aad8541740a1bd14975d650531f1" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="931bfa5b3a3e401aa9834964bd557d97" Name="Library">
+				<SourceFileReference Id="d2534b83b4a44d308a606401fa985ed6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Message Handling Loop.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Error Handler - Message Handling Loop.gviweb" />
+				<SourceFileReference Id="24e94b370a3641198a9fde9526730a05" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Event Handling Loop.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Error Handler - Event Handling Loop.gviweb" />
+				<SourceFileReference Id="183a5dabe92a4e8c99f384dead54a718" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check Loop Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Check Loop Error.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2949dcff23a14abaa2e93b87381ba996" Name="Message Queue">
+					<SourceFileReference Id="d8bd5178b2a44c81a3075822c5802859" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Message Queue\Create All Message Queues.gviweb" />
+					<SourceFileReference Id="5ba0258ac92f4771b09c7ad4b5ecb148" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Message Queue\Dequeue Message.gviweb" />
+					<SourceFileReference Id="e40702b86b52440ba678cfd8e39bcdf3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Array).gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Message Queue\Enqueue Message (Array).gviweb" />
+					<SourceFileReference Id="62f4274e391f4618bca948c99427cd17" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Single).gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Message Queue\Enqueue Message (Single).gviweb" />
+					<SourceFileReference Id="2a0ac05b11884dc2b6fc2afc093b1edc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message Queue.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Message Queue\Obtain Message Queue.gviweb" />
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Id="dbe60849fd9547ecb6c32a2855a22b67" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="GetHostname.js">
+					<ExternalFile>
+						<p.StoragePath>GetHostname.js</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<SourceFileReference Bindings="EnvoyManager" Id="c67169eac8ee4321a9eac1d1103b84ca" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="GetHostname.jsli" StoragePath="GetHostname.jsli" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9c4b294a33ae40ffba4f4b71fbe1f9c6" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Library.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="c00d09d4fec64bc49ce5c2f6501c43c8" Id="180e9d434cc74e07bddbec5f533d5095" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

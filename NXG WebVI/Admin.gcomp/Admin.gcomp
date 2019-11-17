@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="474BC5510FECCEB922374449877EE3BB8126731056A0FF8AA51248D00B8F4222B67F671F4730D52F757F70F1F09241E556FF9EFC45975EB39925968ACEAF44F7" Timestamp="1D59B44A91FAF32" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Configuration1" Id="fff40292765846aab3f778f27b6db3ef" Product="Admin Panel" RootNamespaceId="6be9c0fb51fb428ebc1ddf81d33554bf" UserVersion="0.0.0.6" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="44a19bff6d2741edb21432e036c9ffda" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="bcb6e0b052044c488cc6d76482006c41" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="41f55baa203147d4855d0feee8f192cd" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="89c37b81ede94415806f34c94f58a422" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="dc8ad34725884b80834814279b12d3dd" Name="Configuration1">
+			<CompilerSymbolTable Id="4acfc90f3e1b49dfb509d84cd0c4a812" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="14bb84fa0ce14bbfafd9d95df042e8d8" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="b91d0ca5242348648fa86bc7755552c4" Id="440fcd569cbd4dbf9854b26f20ae5d93" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="c79baf47a87c4cbda5885967adcb9476" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="290e9278624e4bffbed8e15f989459ad" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="555619a0b49c4d0581cfe526747d5124" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6be9c0fb51fb428ebc1ddf81d33554bf" Name="Admin">
+				<SourceFileReference Id="b91d0ca5242348648fa86bc7755552c4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="1297017d2c0641ad8d334dfd0cefe50b" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Admin.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="dc8ad34725884b80834814279b12d3dd" Id="3a1d6a40cde54e229e41f14b3b49850e" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
