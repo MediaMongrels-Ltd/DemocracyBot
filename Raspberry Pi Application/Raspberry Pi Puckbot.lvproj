@@ -309,6 +309,7 @@
 			<Item Name="Register Voter.vi" Type="VI" URL="../Vote Handler/Register Voter.vi"/>
 			<Item Name="Vote Result.ctl" Type="VI" URL="../Vote Handler/Vote Result.ctl"/>
 			<Item Name="Vote.vi" Type="VI" URL="../Vote Handler/Vote.vi"/>
+			<Item Name="Voter Info.ctl" Type="VI" URL="../SubVIs/Voter Info.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -408,9 +409,14 @@ DirectoryIndex index.htm
 			<Item Name="Register Voter.vi" Type="VI" URL="../Vote Handler/Register Voter.vi"/>
 			<Item Name="Vote Result.ctl" Type="VI" URL="../Vote Handler/Vote Result.ctl"/>
 			<Item Name="Vote Status Update.ctl" Type="VI" URL="../Vote Handler/Vote Status Update.ctl"/>
+			<Item Name="Clear Votes.vi" Type="VI" URL="../Vote Handler/Clear Votes.vi"/>
+			<Item Name="Update Scores.vi" Type="VI" URL="../Vote Handler/Update Scores.vi"/>
+			<Item Name="Calculate Winning Vote.vi" Type="VI" URL="../Vote Handler/Calculate Winning Vote.vi"/>
+			<Item Name="Scoreboard Entry.ctl" Type="VI" URL="../Vote Handler/Scoreboard Entry.ctl"/>
 			<Item Name="Vote.vi" Type="VI" URL="../Vote Handler/Vote.vi"/>
 			<Item Name="VoteMessage.ctl" Type="VI" URL="../Vote Handler/VoteMessage.ctl"/>
 			<Item Name="Votes Cast Count.vi" Type="VI" URL="../Vote Handler/Votes Cast Count.vi"/>
+			<Item Name="Voter Info.ctl" Type="VI" URL="../SubVIs/Voter Info.ctl"/>
 		</Item>
 		<Item Name="WebSockets Server" Type="Folder">
 			<Item Name="Connection Handler.vi" Type="VI" URL="../WebSockets Server/Connection Handler.vi"/>
@@ -569,7 +575,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19EF1EF6-DC98-4DDB-8985-337EC7175113}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

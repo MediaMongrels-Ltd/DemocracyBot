@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="474BC5510FECCEB922374449877EE3BB8126731056A0FF8AA51248D00B8F4222B67F671F4730D52F757F70F1F09241E556FF9EFC45975EB39925968ACEAF44F7" Timestamp="1D59B44A91FAF32" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CFE8949C8F6D8251A867A2DC8DFAC06E2EEB4E23A9E5626AFDF77E7A8CBD22304E6126B09F44161EF7C236584038543A565E4B21C6DF3B58A89D77EF1B13B650" Timestamp="1D59D6FF6D1B8B5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Configuration1" Id="fff40292765846aab3f778f27b6db3ef" Product="Admin Panel" RootNamespaceId="6be9c0fb51fb428ebc1ddf81d33554bf" UserVersion="0.0.0.6" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Configuration1" Id="fff40292765846aab3f778f27b6db3ef" Product="Admin Panel" RootNamespaceId="6be9c0fb51fb428ebc1ddf81d33554bf" UserVersion="0.0.0.13" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="44a19bff6d2741edb21432e036c9ffda" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="bcb6e0b052044c488cc6d76482006c41" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="41f55baa203147d4855d0feee8f192cd" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />

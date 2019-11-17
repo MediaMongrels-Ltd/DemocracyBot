@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F732CFDD8366875EE9C660FDE068252BF8637583C9DE2CF74271F888FD8F6EA5F329C7AD777B0426211B07D700FB44B1409D581C042134B6E741F06FB3F4481A" Timestamp="1D59B44A92BC542" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5928D76AC9D17975EE28CA695A025384B27449E4AACEAF54CB876B6B4FCD412FCF827312A5D4346B28542453E0C03314389DE1AF020342319E52F9B6938BB7D6" Timestamp="1D59D6B6D0F1124" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Configuration1" Id="1" Product="DemocracyBot" RootNamespaceId="14" UserVersion="1.0.0.11" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Configuration1" Id="1" Product="DemocracyBot" RootNamespaceId="14" UserVersion="1.0.0.16" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
