@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F72D1C6EFDA0BA75A3829922C0403644488781C014C9BE26E3AF9CCF039E5D39130A739275A516A3A2B14BAD8F2F537869C3BB3DB9A46BC45E236891E6B5DDE3" Timestamp="1D59D6B3100DE6F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0D6B210046720E06A286EAE82A9E84E825BFF919B472777BFA9C29BA2697B8ADCFE45BE825D24141AAFB96E2FF3012D53FC33A16DB11DB45630E8F9B42D4CCE2" Timestamp="1D59F96FBFA0BF7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -244,10 +244,10 @@
 							<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="2">
 								<p.DefaultElementValue>Connect</p.DefaultElementValue>
 							</ArrayBehavior>
-							<Literal Bounds="49 38 120 15" DataType="String" Id="142" Label="143">
+							<Literal Bounds="49 4 120 15" DataType="String" Id="142" Label="143">
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
-							<NodeLabel AttachedTo="142" Bounds="49 17 64 18" Id="143" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="142" Bounds="49 -17 64 18" Id="143" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Message</p.Text>
 							</NodeLabel>
 						</ArrayLiteral>
@@ -836,7 +836,7 @@
 								</NodeLabel>
 								<Wire Id="17acd63a466e435582920381be8d0624" Joints="N(180b00d4c60345a587fe21750599706c:b153b54d47f046cfa49489accc696eff)|(4,225) N(6650622275a54a209472bbed31747b41:error in (no error\))|(135,225)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="ee6928033c9c44d88c8bc649755bcdc1" Joints="N(729393e4992545feb80bcc20d1a84cb7:R3)|(955,225) N(a4bcb78a9cff439389f7a16e2b01a567:b153b54d47f046cfa49489accc696eff)|(967,225)" xmlns="http://www.ni.com/PlatformFramework" />
-								<CaseStructure Bounds="190 60 640 205" DataType="String" Default="df151622f21c42a8873fa8ee8ebbb308" Id="8ab3c1bc21024b119a87a2ab4937cb79" IgnoreUpperLowerCase="True" Label="8147c5dc78a64b179002c7b5b515b80f" Selected="d950a129344143f484e0a925462f982f" UserSelectorBounds="210 0 219 17">
+								<CaseStructure Bounds="190 60 640 205" DataType="String" Default="df151622f21c42a8873fa8ee8ebbb308" Id="8ab3c1bc21024b119a87a2ab4937cb79" IgnoreUpperLowerCase="True" Label="8147c5dc78a64b179002c7b5b515b80f" Selected="a5b518f091ca48099849ba18e15ab910" UserSelectorBounds="210 0 219 17">
 									<CaseStructure.Case Bounds="5 5 630 195" Id="df151622f21c42a8873fa8ee8ebbb308" Pattern="Default">
 										<MethodCall Bounds="345 135 40 40" Id="af1faf9a0ccb4c1086826823d870ddb3" ResolveFailedHint="Build Error Cluster.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 3.0.0)" Signature="@32ebbc0a2f784932a6859f172a3b2bc3" Target="NI::G Core::Error::Build Error Cluster.gvi" xmlns="http://www.ni.com/MocCommon">
 											<p.MethodDeclaration>
@@ -1373,7 +1373,7 @@
 							<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="2">
 								<p.DefaultElementValue>""</p.DefaultElementValue>
 							</ArrayBehavior>
-							<Literal Bounds="160 4 109 15" DataType="String" Id="2ee3ddcf56ec4d0490b67754da7ef6a3">
+							<Literal Bounds="49 4 109 15" DataType="String" Id="2ee3ddcf56ec4d0490b67754da7ef6a3">
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
 						</ArrayLiteral>

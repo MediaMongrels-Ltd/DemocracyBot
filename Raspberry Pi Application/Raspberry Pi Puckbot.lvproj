@@ -397,7 +397,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Servo Drivers" Type="Folder">
 			<Item Name="LINX-PCA9865 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9865 PWM/LINX-PCA9865 PWM.lvclass"/>
-			<Item Name="Servo Drive Test Virtualbench.vi" Type="VI" URL="../Servo Drive Test Virtualbench.vi"/>
+			<Item Name="Servo Drive Test.vi" Type="VI" URL="../Servo Drive Test.vi"/>
 			<Item Name="Set Servo PWM.vi" Type="VI" URL="../LINX-PCA9865 PWM/Set Servo PWM.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
